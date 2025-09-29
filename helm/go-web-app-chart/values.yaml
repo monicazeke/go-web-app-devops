@@ -7,7 +7,7 @@ replicaCount: 2
 image:
 
   repository: moni1999/go-web-app
-  tag: "18106548705"
+  tag: "18106589445"
   pullPolicy: IfNotPresent
 
 service:
@@ -18,7 +18,7 @@ service:
   # This sets the pull policy for images.
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "18106548705"
+  tag: "18106589445"
 
 
 # This is for the secrets for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
