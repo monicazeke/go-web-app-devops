@@ -90,3 +90,9 @@ env:
 nodeSelector: {}
 tolerations: []
 affinity: {}
+# ✅ Add this block to fix ArgoCD HPA error
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 80
